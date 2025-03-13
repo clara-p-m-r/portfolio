@@ -1,0 +1,130 @@
+.header {
+    display:flex;
+    background-color: #FFC43A;
+    padding: 10px;
+    text-align: left; 
+    height: 30px;
+    border-bottom-left-radius: 2% 80%;  /* Curved bottom left */
+    border-bottom-right-radius: 2% 80%; 
+    position:sticky;
+    top:0 ;
+    align-items:center;
+}
+
+
+a {
+    text-decoration: none;
+    color:#eb4e83;
+}
+
+a:hover {
+    color:rgb(247, 241, 200);
+}
+header h1 {color:#eb4e83;
+    font-size:1em;
+    
+   }
+
+body{font-family:'Ovo' , 'Georgia', 'Times' , serif ;
+    color:#a66401;
+    font-size:  1.5em;
+    background-color: rgb(247, 241, 200);
+    stroke-width: ;
+}
+
+
+
+h1{
+    color:#eb4e83;
+    font-size:1.5em;
+    margin-left:1em
+
+}
+
+.first-paragraph { 
+    color:#ff9900;
+}
+
+
+
+img[src="assets/winksmall.webp"] {
+    display:block;
+    margin:0 auto;
+    border-radius:50%;
+    width:25%;
+    height: auto;
+    min-width: 150px;
+   
+}
+
+
+
+img[src="assets/southendpic1.webp"]  {
+     
+        height:600px;
+        min-width:150px ;
+       
+    }
+ 
+img[src="assets/southendpic2.webp"]  {
+ 
+        height:300px;
+        min-width:150px ;
+        max-width: 500px  ;
+        position:relative;
+        left: 400px;
+        top: -100px; 
+        z-index: 2;
+    }
+
+
+img[src="assets/southendpic3.webp"]  {
+     
+        height: 350px;
+        min-width:500px ;
+        max-width: 500px  ;
+        position: relative;
+        left: -450px;
+        top: -200px; 
+        z-index: 1;
+       
+
+    }
+
+
+
+.maintagline {
+        font-size: 20pt;
+        max-width:100pt
+        margin-left: 20pt;
+        margin-right: 20pt;
+      }
+
+ .bio {
+        column-count: 2;
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+ img[src="assets/catcall1.webp"] {
+
+        
+        height:600px;
+        min-width:150px ;
+        margin-left: 1em;
+    }
+
+
+.expl {
+    max-width: 20em;
+}
+
+img[src="assets/website1typography.png"] {
+
+height:300px;
+
+}
+
+
