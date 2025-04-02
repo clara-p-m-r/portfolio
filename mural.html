@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mural</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <header class="headerhome">
+       
+        <h1> <a href="/index.html">Clara Robson</a> | playful yet powerful design </h1> 
+            <div class="instaicon1">
+            <a href="https://www.instagram.com/art_by_clara_r/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/Instagram_logo.png">
+            </div>
+            <div class="linkedinicon1">
+            <a href="https://www.linkedin.com/in/clara-robson/" target="_blank" rel=" noopener noreferrer" >
+                <img src="assets/linkedin_logo.png">
+            </div>
+        </a>
+    </header>
+    <h1>university library mural </h1>
+
+    <div class="scroll-container">
+        <img src="assets/sws_mural.gif"   height="600">
+        <img src="assets/mural_small.jpg"  height="600">
+        <img src="assets/mural_photo_2.jpg"  height="600">
+        <img src="assets/mural_photo_3.jpg"  height="600">
+        <img src="assets/mural_photo_4.jpg"  height="600">
+        <img src="assets/mural_photo_5.jpg"  height="600">
+        
+      </div>
+      
+<p class="bio_mural">I was part of a small group of tutors and students who volunteered to replace a 10x8m vinyl mural at our Stockwell St. campus library in Greenwich. I pitched and saw through a collaged design, incorporating photos and ephemera of students past and present from the rich University archive. I also used cyanotype as a process, wanting to highlight our building’s landscape architecture fame and rooftop garden, imagining a Greenwich of the future overrun by its plants. I combined this with the river Thames as a motif, as the river is what connects Greenwich to the rest of the world, hinting at the opportunities and possibilities ahead of us as students.
+    The project was a great learning opportunity, collaborating in a small group to present research and ideas to the marketing team and work with them to deliver the brief they had given us. We also did our own research and found out what students would like to see in the library, balancing our own interests and expression with the needs of the mural’s day-to-day audience.
+    </p>
+
+
+<p class="presslink"><a href="https://londonnewsonline.co.uk/news/student-artwork-projected-onto-side-of-former-bank-building/"target="_blank" rel=" noopener noreferrer" >Read some press about a recent projected version of the mural here!</a></p>
+  
+
+
+
+
+<script>
+    const scrollContainer = document.querySelector('.scroll-container');
+
+const mouseMoveOnContainer = (e) => {
+    const x = e.clientX
+    const width = window.innerWidth;
+    
+    if (x < width / 2) {
+        document.body.style.cursor = 'grab'
+    } else {
+        document.body.style.cursor = 'grab'
+    }
+}
+
+const mouseClickContainer = (e) => {
+    const x = e.clientX
+    const width = window.innerWidth;
+    const scrollLeft = scrollContainer.scrollLeft;
+
+    const scrollAmount = width / 3;
+
+    console.log(x, width, scrollLeft, scrollAmount)
+    
+    if (x < width / 2) {
+        scrollContainer.scrollTo({ left: scrollLeft - scrollAmount, behavior: 'smooth' })
+    } else {
+        scrollContainer.scrollTo({ left: scrollLeft + scrollAmount, behavior: 'smooth' })
+    }
+}
+
+    
+    const mouseLeaveContainer = () => {
+        document.body.style.cursor = null;
+    }
+
+    scrollContainer.addEventListener('mousemove', mouseMoveOnContainer)
+    scrollContainer.addEventListener('mouseleave', mouseLeaveContainer)
+    scrollContainer.addEventListener('click', mouseClickContainer)
+</script>
+</body>
+</html>
