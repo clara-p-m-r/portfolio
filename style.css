@@ -219,6 +219,17 @@ img[src="assets/southendpic3.webp"]  {
         }
 
 
+
+ .bio3 {
+    column-count: 2;
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+  
+   
+            }
+
+
 img[src="assets/catcall1.webp"] {
 
         
@@ -233,6 +244,7 @@ img[src="assets/catcall1.webp"] {
 
 .expl1 {
     max-width: 20em;
+    
    
 }
 
