@@ -204,6 +204,9 @@ img[src="assets/southendpic3.webp"]  {
     max-width: 33em;
     margin-left: auto;
     margin-right: auto;
+    position:relative;
+    top:-200px;
+    font-size:20pt;
     }
 
 
@@ -498,3 +501,35 @@ img[src="assets/thelife_small.webp"]{
     bottom:630px;    
     transform:rotate(10deg);
  }
+
+
+
+img[src="assets/name_badge.webp"]{
+    position:relative;
+    left:150px;
+    top: -500px;
+    transform:rotate(-10deg);
+}
+
+img[src="assets/jellyfish.webp"]{
+    position:relative;
+    left:190px;
+    top: -350px;
+    transform:rotate(10deg);
+}
+
+img[src="assets/cd.webp"]{
+    position:relative;
+    left:550px;
+    top: -400px;
+    transform:rotate(10deg);
+}
+
+img[src="assets/Alarm-Clock-PNG-Pic.png"]{
+    position:relative;
+    left:500px;
+    top: -350px;
+    transform:rotate(-20deg);
+}
+
+
