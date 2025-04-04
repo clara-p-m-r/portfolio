@@ -102,6 +102,7 @@ a {
 
 
 
+
 a:hover {
     color:#a66401;
 }
@@ -114,6 +115,7 @@ header h1 {color:#eb4e83;
 
 .presslink{
     margin-left:1em;
+    text-decoration: underline;
 }
 
 body{font-family:'Ovo' , 'Georgia', 'Times' , serif ;
